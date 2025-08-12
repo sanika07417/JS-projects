@@ -4,8 +4,8 @@ var crsrBlur=document.querySelector("#cursor-blur");
 document.addEventListener("mousemove",function(dets){
     crsr.style.left=dets.x+"px"
     crsr.style.top=dets.y+"px"
-    crsrBlur.style.left=dets.x-200+"px"
-    crsrBlur.style.top=dets.y-200+"px"
+    crsrBlur.style.left=dets.x-220+"px"
+    crsrBlur.style.top=dets.y-220+"px"
 })
 
 

@@ -140,3 +140,66 @@
             transform: translateX(-100%);
         }
     }
+
+    #about-us{
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-around;
+        padding: 0 50px;
+    }
+
+    #about-us img{
+        height: 220px;
+        width: 220px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    #about-us-in{
+        width: 40%;
+        text-align: center;
+    }
+    #about-us-in h3{
+        font-size: 54px;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+    #about-us-in p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #cards-container{
+        background-color: red;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 70px;
+    }
+    .card{
+        height: 80%;
+        width: 24%;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    #card1{
+        background-image: url('./Assets/card1.avif');
+        object-fit: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #card2{
+        background-image: url('./Assets/card2.avif');
+        object-fit: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #card3{
+        background-image: url('./Assets/card3.avif');
+        object-fit: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
